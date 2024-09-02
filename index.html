@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>REGISTRATION FORM</title>
+  </head>
+  <body style="background-color: orangered">
+    <h1 align="center">REGISTRATION FORM</h1>
+    <fieldset>
+      <legend>sign up form</legend>
+      <form align="center">
+        <label for="first">FIRSTNAME:</label>
+        <input type="text" id="first" name="firstname" /><br /><br />
+        <label for="last">LASTNAME:</label>
+        <input type="text" id="last" name="lastname" /><br /><br />
+        <label for="user">USERNAME:</label>
+        <input type="text" id="user" name="username" /><br /><br />
+        <label for="psd">PASSWORD:</label>
+        <input type="password" id="psd" name="password" /><br /><br />
+        <label for="con">CONFIRM PASSWORD:</label>
+        <input type="password" id="con" name="confirm password" /><br /><br />
+        <label for="mobile">MOBILE NUM:</label>
+        <input
+          type="tel"
+          id="mobile"
+          name="mobile num"
+          pattern="[0-9]{10}"
+        /><br /><br />
+        <label for="email">EMAIL: </label>
+        <input type="email" id="email" name="email name" /><br /><br />
+        <label for="male">GENDER:</label>
+        <input type="radio" id="male" name="gender" value="male" />male
+        <label for="female"></label>
+        <input type="radio" id="female" name="gender" value="female" />female
+        <label for="others"></label>
+        <input
+          type="radio"
+          id="others"
+          name="gender"
+          value="others"
+        />others<br /><br />
+        <label for="skill1">SKILLS:</label>
+        <input type="checkbox" id="skill1" name="skill1" value="html" />Html
+        <label for="skill1"></label>
+        <input type="checkbox" id="skill2" name="skill2" value="html" />CSS
+        <label for="skill1"></label>
+        <input type="checkbox" id="skill3" name="skill3" value="html" />Java
+        Script<br /><br />
+        <label for="date">DATE OF BIRTH:</label>
+        <input type="date" id="date" name="date of birth" /><br /><br />
+        <input type="time"><br><br>
+        <textarea rows="10">upload photo here</textarea>
+        <textarea>upload signature here</textarea><br /><br />
+        <input type="submit" value="login" formaction="./loginpage.html" />
+      </form>
+    </fieldset>
+  </body>
+</html>
